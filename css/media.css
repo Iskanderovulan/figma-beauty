@@ -1,0 +1,385 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 992px;
+    }
+
+    #test {
+        padding: 110px 0;
+        background-image: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        background-repeat: no-repeat;
+
+    }
+    .nav-btn{
+        display: none;
+    }
+
+
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 768px;
+    }
+
+    .nav__flex-items {
+        width: 25%;
+    }
+
+    .nav__flex-items-2 {
+        width: 75%;
+    }
+
+    .nav__list a:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .subtract {
+        display: none;
+    }
+
+    .customers__box {
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+
+    .news__button {
+        margin-top: 10px;
+    }
+
+    .news__items {
+        text-align: center;
+    }
+.news__button{
+    padding: 22px 140px 20px 130px;
+    margin-left:0;
+}
+    .footer__block {
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footer__logo {
+        display: none;
+    }
+
+    .footer__block {
+        display: flex;
+        justify-content: center;
+        margin-bottom:30px;
+    }
+    .copyright{
+        margin-left:0;
+        text-align: center;
+    }
+
+
+    /*FORBUREGER*/
+    /*FORBUREGER*/
+    .mobile-btn {
+        display: flex;
+        z-index: 12;
+    }
+
+    .show-mobile-btn span {
+        background: transparent; /*hides middle line*/
+
+    }
+
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+
+
+    }
+
+    .show-mobile-btn span:before {
+        transform: rotate(45deg);
+    }
+
+    .show-mobile-btn span:after {
+        transform: rotate(-45deg);
+    }
+
+    .nav__list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: fixed;
+        background: #ffffff;
+        height: 8%;
+        width: 100%;
+        top: 0;
+        right: -100%;
+        z-index: 11;
+        transition: .5s;
+    }
+
+    .show-menu {
+        right: 0;
+    }
+
+    /*FORBUREGER*/
+    /*FORBUREGER*/
+
+}
+
+
+@media (max-width: 768px) {
+
+    .container {
+        max-width: 576px;
+    }
+
+
+    .nav__flex-items {
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .col-2 {
+        width: 33.3333%;
+        margin-bottom: 30px;
+    }
+
+    .col-3 {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+
+    .col-5 {
+        width: 100%;
+        margin-bottom: 50px;
+
+    }
+
+    .col-7 {
+        width: 100%;
+    }
+
+
+    #customers {
+        padding-top: 50px;
+        padding-bottom: 10px;
+
+    }
+
+    #plan {
+        padding: 100px 0;
+
+    }
+
+
+    .select__dropdown {
+        flex-direction: column;
+    }
+
+    .dropdown__button {
+        align-self: start;
+        margin-top: 30px;
+    }
+
+    .nav__flex-items {
+        margin: 20px 0;
+    }
+
+    .plan__box-2 {
+        background-size: contain;
+        background-position: bottom;
+    }
+
+    .customers__box {
+        margin-right: 0;
+        margin-left: 0;
+
+    }
+    .footer__block {
+        display: flex;
+        justify-content: center;
+        margin-bottom:30px;
+    }
+
+
+
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 356px;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .col-2 {
+        width: 50%;
+    }
+
+    .col-3 {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .col-5 {
+        margin-bottom: 0;
+    }
+
+    .plan__box-2 {
+        background-position: center;
+
+    }
+
+    #plan {
+        padding: 100px 0 0 0;
+
+    }
+
+
+    .show-mobile-btn span:before,
+    .show-mobile-btn span:after {
+        right: -15px;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .nav__list, .nav__list-2 {
+        height: 12%;
+    }
+
+    .read__or {
+        display: block;
+        margin: 30px 0;
+    }
+
+    .stats__box-1, .stats__box-2 {
+        width: 100%;
+        align-items: center;
+        padding: 66px 0;
+        text-align: center;
+    }
+
+    .blog__list-2 {
+        margin-top: 30px;
+        padding: 0 20px;
+    }
+
+    .dropdown__text {
+        width: 300px;
+    }
+
+    .dropdown__button {
+        margin-top: 70px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .select__dropdown {
+        padding: 16px 0;
+    }
+
+    .nav__list-2 a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .footer__social a:not(:last-child) {
+        margin-right: 20px;
+    }
+
+    .footer__block {
+        justify-content: space-between;
+        text-align: center;
+    }
+
+    h1, h2, h3 {
+        font-size: 32px;
+    }
+
+    #pricing h3 {
+        font-size: 32px;
+    }
+
+    .text__wrap {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .test__block {
+        width: 100%;
+    }
+    #footer {
+        padding: 50px 0 50px 0;
+    }
+    .news__button{
+        padding: 22px 70px 20px 70px;
+    }
+    .news__input{
+        padding: 21px 39px 21px 23px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        max-width: 280px;
+    }
+
+    .col-2 {
+        width: 100%;
+    }
+
+    .nav__button {
+        margin-left: 0;
+    }
+
+    .nav__social a:not(:last-child) {
+        margin-right: 10px;
+    }
+
+    .nav__list, .nav__list-2 {
+        height: 14%;
+    }
+
+    .plan__video {
+        padding: 13px 30px 13px 17px
+    }
+
+    .plan__features {
+        margin-top: 30px;
+        padding: 13px 12px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+    .test__block{
+        align-items: flex-start;
+        padding-top:20px
+    }
+
+    .text__wrap {
+        width: 250px;
+
+    }
+
+
+    .blog__bookmarks{
+        margin-left:0;
+        margin-top:30px;
+    }
+}
+
+@media (max-width: 280px) {
+    h1 {
+        font-size: 36px;
+    }
+
+    .nav__list, .nav__list-2 {
+        height: 13%;
+    }
+
+
+}
